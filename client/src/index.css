@@ -1,13 +1,65 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #1a1f36;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Ubuntu, sans-serif;
+}
+body {
+  min-height: 100%;
+  background-color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formbg {
+  margin: 100px auto;
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  padding: 50px 40px;
+}
+
+.row {
+  margin-bottom: 24px;
+}
+
+input {
+  width: 40%;
+  line-height: 28px;
+  padding: 2px 16px;
+  border: unset;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  margin-right: 8px;
+}
+
+button {
+  background-color: rgb(84, 105, 212);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-style: none;
+  border-radius: 6px;
+  margin-right: 28px;
 }
