@@ -1,4 +1,6 @@
 # Socket.io project with Express and React
+Demonstration of chat through the opening of two windows  | Демонстрация чата через открытие двух окон
+
 ![Screen Banner](cover/1.png)
 
 ## Available Scripts
