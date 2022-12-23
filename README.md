@@ -1,4 +1,5 @@
 # Socket.io project with Express and React
+![Screen Banner](cover/1.png)
 
 ## Available Scripts
 

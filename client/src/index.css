@@ -21,7 +21,7 @@ body {
 .formbg {
   margin: 100px auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   height: 400px;
   background: white;
   border-radius: 4px;
@@ -62,4 +62,8 @@ button {
   border-style: none;
   border-radius: 6px;
   margin-right: 28px;
+}
+
+p {
+  margin-top: 8px;
 }
